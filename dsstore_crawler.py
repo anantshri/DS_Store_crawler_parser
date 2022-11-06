@@ -96,7 +96,7 @@ def get_dstore(urlpath):
     return None
 
 def url_correct(url):
-    if url[-1] is not "/":
+    if url[-1] != "/":
         url = url + "/"
     return url 
 
